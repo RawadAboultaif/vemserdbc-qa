@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body> <h1>Gerador de Senhas</h1>
+    <span class="criar">Criar senha com <span class="qnt">18</span> caracteres</span>
+    
+    <div class="barra">
+        <input type="range" name="senha" id="senha" min="5" max="15" value="8"><br>
+        <input type="button" value="Gerar" id="botao" onclick="gerar()">
+    </div>
+    <div id="senha1" class="hide" onclick="copy()">
+    </div>
+    <div id="copiar" class="hide">
+        <p>Clique na senha para copiar 👆</p>
+    </div>
+    <footer>Criado por Rawad</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
