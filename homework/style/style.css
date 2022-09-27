@@ -68,8 +68,21 @@ div {
     text-align: center;
 }
 input#senha{
-    width: 200px;
+    -webkit-appearance: none;
+    width: 195px;
+    height: 6px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.6);
 }
+
+input#senha::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: rgb(65, 204, 84);
+}
+
 div#senha1 {
     color: rgb(0, 0, 0);
     top: 55vh;
@@ -87,15 +100,21 @@ div#senha1.hide {
 }
 input#botao {
     width: 200px;
-    padding: 5px;
+    padding: 7px;
     font-weight: bold;
     background-color: #3eda3e;
     color: white;
+    border-radius: 5px;
 }
 
 input#botao:hover {
     cursor: pointer;
 }
+
+input#botao:active {
+    filter: brightness(0.7);
+}
+
 div#copiar {
     color: rgb(255, 255, 255);
     top: 60vh;
