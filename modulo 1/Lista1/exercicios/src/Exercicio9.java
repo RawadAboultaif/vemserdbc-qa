@@ -20,17 +20,19 @@ public class Exercicio9 {
         int finalMJogo = jogo.nextInt();
         jogo.nextLine();
 
+        // O calculo esta correto !!
+
 
         if (inicioHJogo  > finalHJogo) {
             finalHJogo += 24;
         }
 
-        int totalminutos = (finalHJogo*60) + finalMJogo - (inicioHJogo*60) - inicioMJogo;
+        int totalMinutos = (finalHJogo*60) + finalMJogo - (inicioHJogo*60) - inicioMJogo;
 
-        int horaDoJogo = totalminutos/60;
+        int duracaoJogoHora = totalMinutos/60;
 
-        int minDoJogo = totalminutos % 60;
+        int duracaoJogoMinutos = totalMinutos % 60;
 
-        System.out.println("Duracao total do jogo eh " + horaDoJogo +":" + minDoJogo);
+        System.out.println("Duracao total do jogo é " + duracaoJogoHora +"Horas e " + duracaoJogoMinutos + "Minutos.");
     }
 }

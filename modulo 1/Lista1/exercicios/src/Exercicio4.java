@@ -3,11 +3,11 @@ public class Exercicio4 {
         int varA = 10;
         int varB = 20;
 
-        int varC = varA + varB;
+        int varC = varA;
 
-        varA = varC - varA;
-        varB = varC - varB;
+        varA = varB;
+        varB = varA;
 
-        System.out.println("Variavel A eh " + varA + " e a variavel B eh " + varB);
+        System.out.println("Variavel A é " + varA + " e a variavel B é " + varB);
     }
 }

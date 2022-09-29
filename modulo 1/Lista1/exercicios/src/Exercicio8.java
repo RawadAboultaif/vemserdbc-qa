@@ -12,29 +12,29 @@ public class Exercicio8 {
             case 101 -> {
                 System.out.println("O gerente recebera um aumento de 10% !! \n " +
                         "O salario antigo eh " +10000 +".\n " +
-                        "O salario atual eh " + (int)(10000*1.1) + ".\n " +
-                        "A diferenca do salario antigo e o atual eh " + (int)((10000*1.1)-10000)+ ".") ;
+                        "O salario atual eh " + (10000*1.1) + ".\n " +
+                        "A diferenca do salario antigo e o atual eh " + ((10000*1.1)-10000)+ ".") ;
             }
 
             case 102 -> {
                 System.out.println("O Engenheiro recebera um aumento de 20% !! \n " +
                         "O salario antigo eh " +8000 +".\n " +
-                        "O salario atual eh " + (int)(8000*1.2) + ".\n " +
-                        "A diferenca do salario antigo e o atual eh " + (int)((8000*1.2)-8000)+ ".");
+                        "O salario atual eh " + (8000*1.2) + ".\n " +
+                        "A diferenca do salario antigo e o atual eh " + ((8000*1.2)-8000)+ ".");
             }
 
             case 103 -> {
                 System.out.println("O Tecnico recebera um aumento de 30% !! \n " +
                         "O salario antigo eh " +4000 +".\n " +
-                        "O salario atual eh " + (int)(4000*1.3) + ".\n " +
-                        "A diferenca do salario antigo e o atual eh " + (int)((4000*1.3)-4000)+ ".");
+                        "O salario atual eh " + (4000*1.3) + ".\n " +
+                        "A diferenca do salario antigo e o atual eh " + ((4000*1.3)-4000)+ ".");
             }
 
             default -> {
                 System.out.println("O estagiario recebera um aumento de 40% !! \n " +
                         "O salario antigo eh " +800 +".\n " +
-                        "O salario atual eh " + (int)(800*1.4) + ".\n " +
-                        "A diferenca do salario antigo e o atual eh " + (int)((800*1.4)-800)+ ".");
+                        "O salario atual eh " + (800*1.4) + ".\n " +
+                        "A diferenca do salario antigo e o atual eh " + ((800*1.4)-800)+ ".");
             }
         }
     }
