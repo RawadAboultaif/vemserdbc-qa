@@ -15,6 +15,7 @@ public class Exercicios7 {
 
         double somaTodosValoresMercados = 0;
         double[] somaValoresPorMercado = {0, 0, 0};
+        int oMercadoMaisBarato = 0;
 
 
         for(int j = 0; j < listaMercados[0].length; j++) {
@@ -28,14 +29,16 @@ public class Exercicios7 {
 
         }
 
-        double mercadoMaisBarato = somaValoresPorMercado[0];
+        double valorMercadoMaisBarato = somaValoresPorMercado[0];
 
         for(int i = 0; i < somaValoresPorMercado.length; i++) {
-            if(mercadoMaisBarato > somaValoresPorMercado[i]) {
-                mercadoMaisBarato = somaValoresPorMercado[i];
+            if(valorMercadoMaisBarato > somaValoresPorMercado[i]) {
+                valorMercadoMaisBarato = somaValoresPorMercado[i];
+                oMercadoMaisBarato = i;
             }
         }
 
-        System.out.println("O Mercado mais barato é de R$ " + mercadoMaisBarato);
+        System.out.println("O Mercado mais barato é de R$ " + valorMercadoMaisBarato);
+        System.out.println("O Mercado mais barato é o: " + oMercadoMaisBarato);
     }
 }
