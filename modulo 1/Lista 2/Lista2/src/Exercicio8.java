@@ -17,15 +17,11 @@ public class Exercicio8 {
             if(numeroUsuario == listaNumeros[i]) {
                 contador += 1;
             }
-        }
 
-        for(int i = 0; i < listaNumeros.length -1; i++) {
             if(numeroUsuario < listaNumeros[i]) {
                 contador1 += 1;
             }
-        }
 
-        for(int i = 0; i < listaNumeros.length -1; i++) {
             if(numeroUsuario > listaNumeros[i]) {
                 contador2 += 1;
             }
