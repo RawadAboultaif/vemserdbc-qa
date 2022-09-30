@@ -4,37 +4,45 @@ public class Exercicio8 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
-        System.out.print("Digite o codigo referente ao cargo: ");
-        int codigoFuncionario = leitor.nextInt();
-        leitor.nextLine();
+        System.out.print("Digite o cargo do funcionario: ");
+        String codigoFuncionario = leitor.nextLine();
 
-        switch (codigoFuncionario) {
-            case 101 -> {
+
+        switch (codigoFuncionario.toLowerCase()) {
+            case "gerente" -> {
+                System.out.print("Digite o salario do funcionario: ");
+                double salarioFuncionario = leitor.nextDouble();
                 System.out.println("O gerente recebera um aumento de 10% !! \n " +
-                        "O salario antigo eh " +10000 +".\n " +
-                        "O salario atual eh " + (10000*1.1) + ".\n " +
-                        "A diferenca do salario antigo e o atual eh " + ((10000*1.1)-10000)+ ".") ;
+                        "O salario antigo eh " +salarioFuncionario +"\n " +
+                        "O salario atual eh " + (salarioFuncionario*1.1) + "\n " +
+                        "A diferenca do salario antigo e o atual eh " + ((salarioFuncionario*1.1)-salarioFuncionario)) ;
             }
 
-            case 102 -> {
+            case "engenheiro" -> {
+                System.out.print("Digite o salario do funcionario: ");
+                double salarioFuncionario = leitor.nextDouble();
                 System.out.println("O Engenheiro recebera um aumento de 20% !! \n " +
-                        "O salario antigo eh " +8000 +".\n " +
-                        "O salario atual eh " + (8000*1.2) + ".\n " +
-                        "A diferenca do salario antigo e o atual eh " + ((8000*1.2)-8000)+ ".");
+                        "O salario antigo eh " +salarioFuncionario +"\n " +
+                        "O salario atual eh " + (salarioFuncionario*1.2) + "\n " +
+                        "A diferenca do salario antigo e o atual eh " + ((salarioFuncionario*1.2)-salarioFuncionario));
             }
 
-            case 103 -> {
+            case "tecnico" -> {
+                System.out.print("Digite o salario do funcionario: ");
+                double salarioFuncionario = leitor.nextDouble();
                 System.out.println("O Tecnico recebera um aumento de 30% !! \n " +
-                        "O salario antigo eh " +4000 +".\n " +
-                        "O salario atual eh " + (4000*1.3) + ".\n " +
-                        "A diferenca do salario antigo e o atual eh " + ((4000*1.3)-4000)+ ".");
+                        "O salario antigo eh " +salarioFuncionario +"\n " +
+                        "O salario atual eh " + (salarioFuncionario*1.3) + "\n " +
+                        "A diferenca do salario antigo e o atual eh " + ((salarioFuncionario*1.3)-salarioFuncionario));
             }
 
             default -> {
-                System.out.println("O estagiario recebera um aumento de 40% !! \n " +
-                        "O salario antigo eh " +800 +".\n " +
-                        "O salario atual eh " + (800*1.4) + ".\n " +
-                        "A diferenca do salario antigo e o atual eh " + ((800*1.4)-800)+ ".");
+                System.out.print("Digite o salario do funcionario: ");
+                double salarioFuncionario = leitor.nextDouble();
+                System.out.println("O funcionario recebera um aumento de 40% !! \n " +
+                        "O salario antigo eh " +salarioFuncionario +"\n " +
+                        "O salario atual eh " + (salarioFuncionario*1.4) + "\n " +
+                        "A diferenca do salario antigo e o atual eh " + ((salarioFuncionario*1.4)-salarioFuncionario));
             }
         }
     }
