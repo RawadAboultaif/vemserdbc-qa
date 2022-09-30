@@ -13,7 +13,7 @@ public class Exercicio8 {
         int contador1 = 0;
         int contador2 = 0;
 
-        for(int i = 0; i < listaNumeros.length -1; i++) {
+        for(int i = 0; i < listaNumeros.length; i++) {
             if(numeroUsuario == listaNumeros[i]) {
                 contador += 1;
             }
