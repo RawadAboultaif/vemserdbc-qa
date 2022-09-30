@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Exercicio8 {
     public static void main(String[] args) {
-        Scanner aumento = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
 
         System.out.print("Digite o codigo referente ao cargo: ");
-        int codigoFuncionario = aumento.nextInt();
-        aumento.nextLine();
+        int codigoFuncionario = leitor.nextInt();
+        leitor.nextLine();
 
         switch (codigoFuncionario) {
             case 101 -> {

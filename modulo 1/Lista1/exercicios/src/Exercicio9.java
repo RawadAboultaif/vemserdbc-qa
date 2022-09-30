@@ -2,32 +2,32 @@ import java.util.Scanner;
 
 public class Exercicio9 {
     public static void main(String[] args) {
-        Scanner jogo = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
 
         System.out.print("Digite a hora do inicio do jogo: ");
-        int inicioHJogo = jogo.nextInt();
-        jogo.nextLine();
+        int inicioHoraJogo = leitor.nextInt();
+        leitor.nextLine();
 
         System.out.print("Digite os minutos do inicio do jogo: ");
-        int inicioMJogo = jogo.nextInt();
-        jogo.nextLine();
+        int inicioMinutosJogo = leitor.nextInt();
+        leitor.nextLine();
 
         System.out.print("Digite a hora do final do jogo: ");
-        int finalHJogo = jogo.nextInt();
-        jogo.nextLine();
+        int finalHoraJogo = leitor.nextInt();
+        leitor.nextLine();
 
         System.out.print("Digite os minutos do final do jogo: ");
-        int finalMJogo = jogo.nextInt();
-        jogo.nextLine();
+        int finalMinutosJogo = leitor.nextInt();
+        leitor.nextLine();
 
         // O calculo esta correto !!
 
 
-        if (inicioHJogo  > finalHJogo) {
-            finalHJogo += 24;
+        if (inicioHoraJogo  > finalHoraJogo) {
+            finalHoraJogo += 24;
         }
 
-        int totalMinutos = (finalHJogo*60) + finalMJogo - (inicioHJogo*60) - inicioMJogo;
+        int totalMinutos = (finalHoraJogo*60) + finalMinutosJogo - (inicioHoraJogo*60) - inicioMinutosJogo;
 
         int duracaoJogoHora = totalMinutos/60;
 
