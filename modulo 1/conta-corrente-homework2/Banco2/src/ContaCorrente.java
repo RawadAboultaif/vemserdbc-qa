@@ -20,34 +20,6 @@ public class ContaCorrente extends Conta implements Impressao{
         }
     }
 
-    public boolean depositar(double adicionarSaldo) {
-
-        if(adicionarSaldo > 0) {
-            double contadorSaldo = getSaldo() + adicionarSaldo;
-            setSaldo(contadorSaldo);
-
-        } else {
-            System.out.println("Nao é possivel depositar um saldo negativo.");
-        }
-        return true;
-    }
-
-
-    public boolean transferir(Conta contaCorrente, double valor) {
-        if(getSaldo()+chequeEspecial > valor) {
-            sacar(valor);
-            contaCorrente.depositar(valor);
-            System.out.println("\n" + "Transferencia realizada com sucesso !!" + "\n");
-            System.out.printf("\n" + "Transferencia: R$ -%.2f \n", valor);
-            System.out.printf("Saldo: R$ %.2f \n", getSaldo());
-            System.out.printf("Cheque Especial: R$ %.2f \n \n", chequeEspecial);
-        } else {
-            System.out.println("Saldo insuficiente para realizar a transferência.");
-        }
-        return true;
-    }
-
-
     public void imprimir() {
         System.out.println("\n" + "--------Cliente--------");
         System.out.println("\n" + "Nome: " + getCliente().getNome());
@@ -67,12 +39,7 @@ public class ContaCorrente extends Conta implements Impressao{
 
 
 
-    // Getters and Setters
-
-
-    public double getChequeEspecial() {
-        return chequeEspecial;
-    }
+    //  Setters
 
     public void setChequeEspecial(double chequeEspecial) {
         this.chequeEspecial = chequeEspecial;

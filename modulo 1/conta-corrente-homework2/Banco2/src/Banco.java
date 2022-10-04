@@ -104,7 +104,6 @@ public class Banco {
 
         //**************** Transferencias entre contas ********************
 
-
         // Transferencia da conta 1 para a conta 2
 
         c1.transferir(c2, 5000);
