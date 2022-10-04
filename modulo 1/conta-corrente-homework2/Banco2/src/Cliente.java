@@ -1,8 +1,8 @@
 public class Cliente {
-    String nome;
-    String cpf;
-    Contato[] contato = new Contato[2];
-    Endereco[] endereco = new Endereco[2];
+   private String nome;
+   private String cpf;
+   private Contato[] contato = new Contato[2];
+   private Endereco[] endereco = new Endereco[2];
 
 
     public  void imprimirContatos() {
@@ -32,5 +32,41 @@ public class Cliente {
         System.out.println("Cpf: " + cpf);
         imprimirContatos();
         imprimirEnderecos();
+    }
+
+
+
+    // Getters and Setters
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public Contato[] getContato() {
+        return contato;
+    }
+
+    public void setContato(Contato[] contato) {
+        this.contato = contato;
+    }
+
+    public Endereco[] getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco[] endereco) {
+        this.endereco = endereco;
     }
 }
