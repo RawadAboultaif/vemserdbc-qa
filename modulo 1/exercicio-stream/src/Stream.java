@@ -78,10 +78,11 @@ public class Stream {
 
 
         //    Imprimir o nome e salário dessa pessoa
-        Map<String, Double> pessoaESalario = possivelPessoa.stream()
-                .collect(toMap(Pessoa::getNome, Pessoa::getSalario));
-        System.out.println(pessoaESalario);
-
+//        possivelPessoa.ifPresent(System.out.println(possivelPessoa));
+        if(possivelPessoa.isPresent()) {
+            System.out.println("Nome: " + possivelPessoa.get().getNome());
+            System.out.println("Salario: R$"+possivelPessoa.get().getSalario());
+        }
     }
 
     static class Salario {
