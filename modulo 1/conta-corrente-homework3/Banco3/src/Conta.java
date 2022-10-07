@@ -49,7 +49,7 @@ abstract class Conta implements Movimentacao  {
 
 
     public boolean sacar(double diminuirSaldo) {
-        if (diminuirSaldo > getSaldo()) {
+        if (diminuirSaldo < getSaldo()) {
             double contadorSaldo = getSaldo() - diminuirSaldo;
             setSaldo(contadorSaldo);
             return true;
