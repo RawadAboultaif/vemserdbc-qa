@@ -11,6 +11,7 @@ public class MassaDeDados {
 
         HashMap<String, Object> params = new HashMap<>();
 
+
         params.put("id", faker.idNumber().hashCode());
         params.put("username", faker.name().firstName());
         params.put("firstName", faker.name().firstName());
