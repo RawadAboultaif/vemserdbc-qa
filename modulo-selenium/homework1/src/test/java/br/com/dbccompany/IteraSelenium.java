@@ -108,12 +108,9 @@ public class IteraSelenium {
     }
 
     @Test
-    public void testarUploadFile() {
+    public void testarUploadFile() throws InterruptedException {
         WebElement chooseFile = driver.findElement(By.id("inputGroupFile02"));
         chooseFile.sendKeys("C:/Users/rawad.yehia/Desktop/dePrimeira.webp");
 
-        String divText = driver.findElement(By.id("file-upload-button")).getAttribute("title");
-
-        System.out.println(divText);
     }
 }
