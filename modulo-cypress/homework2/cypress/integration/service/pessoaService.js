@@ -3,7 +3,7 @@ import { token } from "../../support/commands"
 
 const API_BASE = Cypress.env('API_BASE')
 
-export default class UserService{
+export default class PessoaService{
 
   listarPessoas(page, tamanho){
     return cy.request({
