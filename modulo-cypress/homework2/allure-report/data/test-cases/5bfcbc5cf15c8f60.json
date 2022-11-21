@@ -1,0 +1,193 @@
+{
+  "uid" : "5bfcbc5cf15c8f60",
+  "name" : "Contrato - Validar contrato lista-com-contatos",
+  "fullName" : "Contrato - Validar contrato lista-com-contatos",
+  "historyId" : "80e45714952f284fc72c45602c19429a",
+  "time" : {
+    "start" : 1668799575910,
+    "stop" : 1668799576400,
+    "duration" : 490
+  },
+  "status" : "failed",
+  "statusMessage" : "Falha do contrato",
+  "statusTrace" : "Error: Falha do contrato\n    at Context.eval (http://localhost:65386/__cypress/tests?p=cypress\\integration\\test\\contrato\\pessoa.spec.js:155:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799573667,
+        "stop" : 1668799573891,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799573671,
+          "stop" : 1668799573891,
+          "duration" : 220
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799573906,
+        "stop" : 1668799574168,
+        "duration" : 262
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799573907,
+          "stop" : 1668799574168,
+          "duration" : 261
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Falha do contrato",
+    "statusTrace" : "Error: Falha do contrato\n    at Context.eval (http://localhost:65386/__cypress/tests?p=cypress\\integration\\test\\contrato\\pessoa.spec.js:155:17)",
+    "steps" : [ {
+      "name" : "GET 404 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//pessoa/lista-com-enderecos",
+      "time" : {
+        "start" : 1668799575952,
+        "stop" : 1668799576072,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "fixture (\"pessoa/schema/listaComContatos.contrato\")",
+      "time" : {
+        "start" : 1668799576073,
+        "stop" : 1668799576084,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log [Object{8}]",
+      "time" : {
+        "start" : 1668799576115,
+        "stop" : 1668799576117,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1668799576399,
+        "stop" : 1668799576399,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7578fcce7a2ae31e",
+      "name" : "test/contrato/pessoa.spec.js:2022-11-18T19:26:16.136Z",
+      "source" : "7578fcce7a2ae31e.png",
+      "type" : "image/png",
+      "size" : 80384
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contrato Pessoa"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bfcbc5cf15c8f60.json",
+  "parameterValues" : [ ]
+}

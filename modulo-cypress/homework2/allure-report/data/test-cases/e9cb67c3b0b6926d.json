@@ -1,0 +1,193 @@
+{
+  "uid" : "e9cb67c3b0b6926d",
+  "name" : "Contrato - Buscar Contato por Id Pessoa",
+  "fullName" : "Contrato - Buscar Contato por Id Pessoa",
+  "historyId" : "0ee4605ee9ee4f429db3cace66c4abd4",
+  "time" : {
+    "start" : 1668799669585,
+    "stop" : 1668799670100,
+    "duration" : 515
+  },
+  "status" : "failed",
+  "statusMessage" : "Falha do contrato",
+  "statusTrace" : "Error: Falha do contrato\n    at Context.eval (http://localhost:58464/__cypress/tests?p=cypress\\integration\\test\\contrato\\contato.spec.js:155:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799669134,
+        "stop" : 1668799669366,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799669137,
+          "stop" : 1668799669366,
+          "duration" : 229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799669379,
+        "stop" : 1668799669577,
+        "duration" : 198
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799669379,
+          "stop" : 1668799669577,
+          "duration" : 198
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Falha do contrato",
+    "statusTrace" : "Error: Falha do contrato\n    at Context.eval (http://localhost:58464/__cypress/tests?p=cypress\\integration\\test\\contrato\\contato.spec.js:155:17)",
+    "steps" : [ {
+      "name" : "GET 404 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//contato/892",
+      "time" : {
+        "start" : 1668799669588,
+        "stop" : 1668799669680,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "fixture (\"contato/schema/contatoPessoa.contrato\")",
+      "time" : {
+        "start" : 1668799669685,
+        "stop" : 1668799669698,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log [Object{8}]",
+      "time" : {
+        "start" : 1668799669753,
+        "stop" : 1668799669755,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1668799670099,
+        "stop" : 1668799670099,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "92803b7e807bd53e",
+      "name" : "test/contrato/contato.spec.js:2022-11-18T19:27:49.792Z",
+      "source" : "92803b7e807bd53e.png",
+      "type" : "image/png",
+      "size" : 68051
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contrato Contato"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9cb67c3b0b6926d.json",
+  "parameterValues" : [ ]
+}

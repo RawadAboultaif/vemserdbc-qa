@@ -1,0 +1,205 @@
+{
+  "uid" : "af11587a2c91ef07",
+  "name" : "DELETE, Deletar Pessoa Id Negativo",
+  "fullName" : "DELETE, Deletar Pessoa Id Negativo",
+  "historyId" : "af6102847418059fa4fb000946b5e5b3",
+  "time" : {
+    "start" : 1668797427624,
+    "stop" : 1668797432175,
+    "duration" : 4551
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected 404 to equal 200",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected 404 to equal 200\n    at Context.eval (http://localhost:55484/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\pessoa.spec.js:359:34)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668797416887,
+        "stop" : 1668797417132,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668797416892,
+          "stop" : 1668797417132,
+          "duration" : 240
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668797417140,
+        "stop" : 1668797417369,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668797417141,
+          "stop" : 1668797417369,
+          "duration" : 228
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected 404 to equal 200",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected 404 to equal 200\n    at Context.eval (http://localhost:55484/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\pessoa.spec.js:359:34)",
+    "steps" : [ {
+      "name" : "DELETE 404 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/pessoa/-200",
+      "time" : {
+        "start" : 1668797427632,
+        "stop" : 1668797427799,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "as (\"response\")",
+      "time" : {
+        "start" : 1668797427799,
+        "stop" : 1668797427800,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get @response",
+      "time" : {
+        "start" : 1668797427800,
+        "stop" : 1668797432174,
+        "duration" : 4374
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **404** to equal **200**",
+      "time" : {
+        "start" : 1668797432174,
+        "stop" : 1668797432174,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "404"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cd954c4cd6a1c6df",
+      "name" : "test/aceitacao/pessoa.spec.js:2022-11-18T18:50:31.813Z",
+      "source" : "cd954c4cd6a1c6df.png",
+      "type" : "image/png",
+      "size" : 90697
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Pessoa"
+  }, {
+    "name" : "epic",
+    "value" : "Pessoa"
+  }, {
+    "name" : "feature",
+    "value" : "Atualizar Pessoa"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af11587a2c91ef07.json",
+  "parameterValues" : [ ]
+}

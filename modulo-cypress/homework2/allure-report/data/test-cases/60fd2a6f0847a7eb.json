@@ -1,0 +1,371 @@
+{
+  "uid" : "60fd2a6f0847a7eb",
+  "name" : "GET, Lista Completa Pessoa Id Passado Como String",
+  "fullName" : "GET, Lista Completa Pessoa Id Passado Como String",
+  "historyId" : "4dfb34bc854d8eff43b836fe779efa55",
+  "time" : {
+    "start" : 1668799950758,
+    "stop" : 1668799956361,
+    "duration" : 5603
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: response is not defined",
+  "statusTrace" : "ReferenceError: Timed out retrying after 4000ms: response is not defined\n    at Context.eval (http://localhost:60712/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\pessoa.spec.js:417:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799918597,
+        "stop" : 1668799918828,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799918604,
+          "stop" : 1668799918828,
+          "duration" : 224
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799918841,
+        "stop" : 1668799919071,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799918842,
+          "stop" : 1668799919071,
+          "duration" : 229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: response is not defined",
+    "statusTrace" : "ReferenceError: Timed out retrying after 4000ms: response is not defined\n    at Context.eval (http://localhost:60712/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\pessoa.spec.js:417:14)",
+    "steps" : [ {
+      "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/pessoa",
+      "time" : {
+        "start" : 1668799950800,
+        "stop" : 1668799951000,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "as (\"response\")",
+      "time" : {
+        "start" : 1668799951000,
+        "stop" : 1668799951001,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get @response",
+      "time" : {
+        "start" : 1668799951001,
+        "stop" : 1668799951002,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "wrap Object{5}",
+      "time" : {
+        "start" : 1668799951004,
+        "stop" : 1668799951005,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "as (\"pessoa\")",
+      "time" : {
+        "start" : 1668799951005,
+        "stop" : 1668799951006,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get @pessoa",
+      "time" : {
+        "start" : 1668799951006,
+        "stop" : 1668799951009,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/pessoa/lista-completa",
+      "time" : {
+        "start" : 1668799951011,
+        "stop" : 1668799951980,
+        "duration" : 969
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "as (\"response\")",
+      "time" : {
+        "start" : 1668799951980,
+        "stop" : 1668799951980,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get @response",
+      "time" : {
+        "start" : 1668799951981,
+        "stop" : 1668799956360,
+        "duration" : 4379
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "57c419b6cbdda884",
+      "name" : "test/aceitacao/pessoa.spec.js:2022-11-18T19:32:35.986Z",
+      "source" : "57c419b6cbdda884.png",
+      "type" : "image/png",
+      "size" : 89519
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Pessoa"
+  }, {
+    "name" : "epic",
+    "value" : "Pessoa"
+  }, {
+    "name" : "Pessoa , teste"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2996497695ad7185",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: response is not defined",
+      "time" : {
+        "start" : 1668798993162,
+        "stop" : 1668798998340,
+        "duration" : 5178
+      }
+    }, {
+      "uid" : "e7869e2e663d6e6e",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: response is not defined",
+      "time" : {
+        "start" : 1668798334339,
+        "stop" : 1668798339494,
+        "duration" : 5155
+      }
+    }, {
+      "uid" : "7a40baae71814309",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: response is not defined",
+      "time" : {
+        "start" : 1668798096564,
+        "stop" : 1668798102500,
+        "duration" : 5936
+      }
+    }, {
+      "uid" : "652edefd51fbd763",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: response is not defined",
+      "time" : {
+        "start" : 1668797739784,
+        "stop" : 1668797745260,
+        "duration" : 5476
+      }
+    }, {
+      "uid" : "e26ed27713ed83f",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: response is not defined",
+      "time" : {
+        "start" : 1668797445792,
+        "stop" : 1668797451078,
+        "duration" : 5286
+      }
+    }, {
+      "uid" : "6f84bdd46d03c10a",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: response is not defined",
+      "time" : {
+        "start" : 1668796241137,
+        "stop" : 1668796246498,
+        "duration" : 5361
+      }
+    }, {
+      "uid" : "666fbf1598babc4a",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: response is not defined",
+      "time" : {
+        "start" : 1668793017446,
+        "stop" : 1668793022694,
+        "duration" : 5248
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c89dd3802327499b",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: response is not defined",
+        "time" : {
+          "start" : 1668797445792,
+          "stop" : 1668797451078,
+          "duration" : 5286
+        }
+      }, {
+        "uid" : "7b43d9026aa37371",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: response is not defined",
+        "time" : {
+          "start" : 1668796241137,
+          "stop" : 1668796246498,
+          "duration" : 5361
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "60fd2a6f0847a7eb.json",
+  "parameterValues" : [ ]
+}

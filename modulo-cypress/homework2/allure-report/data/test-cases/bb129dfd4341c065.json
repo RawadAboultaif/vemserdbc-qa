@@ -1,0 +1,302 @@
+{
+  "uid" : "bb129dfd4341c065",
+  "name" : "GET, Buscar Pessoa Por CPF Invalido",
+  "fullName" : "GET, Buscar Pessoa Por CPF Invalido",
+  "historyId" : "93604d4ce5ea74cf0ca6b3abb31826fb",
+  "time" : {
+    "start" : 1668799934339,
+    "stop" : 1668799938802,
+    "duration" : 4463
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected 200 to equal 400\n    at Context.eval (http://localhost:60712/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\pessoa.spec.js:386:34)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799918597,
+        "stop" : 1668799918828,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799918604,
+          "stop" : 1668799918828,
+          "duration" : 224
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799918841,
+        "stop" : 1668799919071,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799918842,
+          "stop" : 1668799919071,
+          "duration" : 229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected 200 to equal 400\n    at Context.eval (http://localhost:60712/__cypress/tests?p=cypress\\integration\\test\\aceitacao\\pessoa.spec.js:386:34)",
+    "steps" : [ {
+      "name" : "GET 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//pessoa/123456789123/cpf",
+      "time" : {
+        "start" : 1668799934373,
+        "stop" : 1668799934485,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "as (\"response\")",
+      "time" : {
+        "start" : 1668799934485,
+        "stop" : 1668799934485,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get @response",
+      "time" : {
+        "start" : 1668799934485,
+        "stop" : 1668799938799,
+        "duration" : 4314
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **200** to equal **400**",
+      "time" : {
+        "start" : 1668799938799,
+        "stop" : 1668799938799,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "400"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1d6de691d7538b4f",
+      "name" : "test/aceitacao/pessoa.spec.js:2022-11-18T19:32:18.491Z",
+      "source" : "1d6de691d7538b4f.png",
+      "type" : "image/png",
+      "size" : 90544
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Pessoa"
+  }, {
+    "name" : "epic",
+    "value" : "Pessoa"
+  }, {
+    "name" : "Pessoa , teste"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71ae25255a6f4612",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+      "time" : {
+        "start" : 1668798981520,
+        "stop" : 1668798985867,
+        "duration" : 4347
+      }
+    }, {
+      "uid" : "1aead20e8ed044cf",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+      "time" : {
+        "start" : 1668798322267,
+        "stop" : 1668798326705,
+        "duration" : 4438
+      }
+    }, {
+      "uid" : "99c132c6132930cd",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+      "time" : {
+        "start" : 1668798080750,
+        "stop" : 1668798085270,
+        "duration" : 4520
+      }
+    }, {
+      "uid" : "438db966dc72344a",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+      "time" : {
+        "start" : 1668797726476,
+        "stop" : 1668797730926,
+        "duration" : 4450
+      }
+    }, {
+      "uid" : "e49c67d14fe14006",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+      "time" : {
+        "start" : 1668797433095,
+        "stop" : 1668797437560,
+        "duration" : 4465
+      }
+    }, {
+      "uid" : "3fb7c8c6854d4888",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+      "time" : {
+        "start" : 1668796228695,
+        "stop" : 1668796233065,
+        "duration" : 4370
+      }
+    }, {
+      "uid" : "ea4ab999de1ccf30",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+      "time" : {
+        "start" : 1668793005437,
+        "stop" : 1668793009825,
+        "duration" : 4388
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a86a95a4b3bd6870",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+        "time" : {
+          "start" : 1668797433095,
+          "stop" : 1668797437560,
+          "duration" : 4465
+        }
+      }, {
+        "uid" : "27ec6215f07bac16",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+        "time" : {
+          "start" : 1668796228695,
+          "stop" : 1668796233065,
+          "duration" : 4370
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bb129dfd4341c065.json",
+  "parameterValues" : [ ]
+}

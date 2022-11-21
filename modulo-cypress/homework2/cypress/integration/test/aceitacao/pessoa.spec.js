@@ -5,7 +5,11 @@ const userService = new PessoaService
 const userPayload = require('../../../fixtures/pessoa/massaDados/addUser.payload.json')
 const userPayloadNomeVazio = require('../../../fixtures/pessoa/massaDados/addUserNomeVazio.payload.json')
 
+const allure = Cypress.Allure.reporter.getInterface();
 
+
+
+allure.epic('Pessoa')
 context('Pessoa', () => {
 
   it('PUT - Atualizar Pessoa', () => {
@@ -44,7 +48,6 @@ context('Pessoa', () => {
       expect(response.status).to.eq(400)
     })
   });
-
 
   it('DELETE, Deletar Pessoa', () => {
     userService.adicionarPessoa(userPayload)

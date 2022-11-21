@@ -1,0 +1,789 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Pessoa",
+    "children" : [ {
+      "name" : "An uncaught error was detected outside of a test",
+      "uid" : "83da353ebbe79b21",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668799664558,
+        "stop" : 1668799664921,
+        "duration" : 363
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "PUT - Atualizar Pessoa",
+      "uid" : "d7561e271065025c",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799919078,
+        "stop" : 1668799919485,
+        "duration" : 407
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "PUT - Atualizar Pessoa Com Id Negativo",
+      "uid" : "2678c00876c5a86f",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668799919493,
+        "stop" : 1668799923933,
+        "duration" : 4440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET - Listar Pessoas",
+      "uid" : "832db15ecec45d7b",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799924030,
+        "stop" : 1668799924165,
+        "duration" : 135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET - Listar Pessoas Tamanha lista Negativo",
+      "uid" : "a6f54fbe43d20a49",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668799924170,
+        "stop" : 1668799928590,
+        "duration" : 4420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "DELETE, Deletar Pessoa",
+      "uid" : "766316aabf5a40c8",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799928619,
+        "stop" : 1668799928917,
+        "duration" : 298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "DELETE, Deletar Pessoa Id Negativo",
+      "uid" : "a37ec54282a7366",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668799928924,
+        "stop" : 1668799933411,
+        "duration" : 4487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "POST, Adicionar Nova Pessoa",
+      "uid" : "98feefefc794832c",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799933428,
+        "stop" : 1668799933709,
+        "duration" : 281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "POST, Adicionar Nova Pessoa Com Nome Vazio",
+      "uid" : "20473b8769095b9b",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799933712,
+        "stop" : 1668799933857,
+        "duration" : 145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Buscar Pessoa Por CPF",
+      "uid" : "fd0dc9d37ff6f96b",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799933862,
+        "stop" : 1668799934332,
+        "duration" : 470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Buscar Pessoa Por CPF Invalido",
+      "uid" : "bb129dfd4341c065",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668799934339,
+        "stop" : 1668799938802,
+        "duration" : 4463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Buscar Relatorio Pessoa",
+      "uid" : "a1fe90d5460bcc6",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799938835,
+        "stop" : 1668799942269,
+        "duration" : 3434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Buscar Relatorio Pessoa Inexistente",
+      "uid" : "f48e82b4e8cd8209",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668799942350,
+        "stop" : 1668799949345,
+        "duration" : 6995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Lista Completa Pessoa",
+      "uid" : "6785b86c72445b07",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799949364,
+        "stop" : 1668799950714,
+        "duration" : 1350
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Lista Completa Pessoa Id Passado Como String",
+      "uid" : "60fd2a6f0847a7eb",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668799950758,
+        "stop" : 1668799956361,
+        "duration" : 5603
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Lista Com Endereco Pessoa",
+      "uid" : "64aeea96d8b3b18c",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799956375,
+        "stop" : 1668799957398,
+        "duration" : 1023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Lista Com Endereco Pessoa Inexistente",
+      "uid" : "d641ffe44a66683e",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668799957407,
+        "stop" : 1668799962529,
+        "duration" : 5122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Lista Com Contatos Pessoa",
+      "uid" : "b1b104405b02b027",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799962546,
+        "stop" : 1668799963375,
+        "duration" : 829
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Lista Com Contatos Pessoa Inexistente",
+      "uid" : "3cc72c3f62d6301",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668799963381,
+        "stop" : 1668799968331,
+        "duration" : 4950
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Buscar Pessoa por Nome",
+      "uid" : "7b1095882c2ef9f6",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799968363,
+        "stop" : 1668799968798,
+        "duration" : 435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "GET, Buscar Pessoa por Nome Vazio",
+      "uid" : "daf5115c7e4f8bf6",
+      "parentUid" : "4a10512c6b89c50bce395cc427ac24be",
+      "status" : "failed",
+      "time" : {
+        "start" : 1668799968803,
+        "stop" : 1668799973521,
+        "duration" : 4718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4a10512c6b89c50bce395cc427ac24be"
+  }, {
+    "name" : "Contrato - Buscar Endereco por Id Endereco",
+    "uid" : "a0149f0aa06fd71d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1668799675280,
+      "stop" : 1668799675837,
+      "duration" : 557
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Lista Endereco Completa",
+    "uid" : "f6706733e06934a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799675907,
+      "stop" : 1668799676125,
+      "duration" : 218
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Lista Endereco Por Pais",
+    "uid" : "c412251cd46a3f9a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799676130,
+      "stop" : 1668799676270,
+      "duration" : 140
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Lista Endereco Por Id Pessoa",
+    "uid" : "5eb32d4f2c2c03e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799676274,
+      "stop" : 1668799676406,
+      "duration" : 132
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Validar contrato listarPessoa",
+    "uid" : "2b8c9583a8224684",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799681354,
+      "stop" : 1668799681635,
+      "duration" : 281
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Validar contrato atualizarPessoa",
+    "uid" : "4776c71bbd4e466",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1668799681641,
+      "stop" : 1668799682098,
+      "duration" : 457
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Validar contrato relatorioPorId",
+    "uid" : "434d876b323d3c3c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799682156,
+      "stop" : 1668799682312,
+      "duration" : 156
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Validar contrato lista-completa",
+    "uid" : "80bd490ed395b3e5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799682316,
+      "stop" : 1668799682480,
+      "duration" : 164
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Validar contrato lista-com-enderecos",
+    "uid" : "71f1612fe032a247",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1668799682486,
+      "stop" : 1668799682930,
+      "duration" : 444
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Validar contrato lista-com-contatos",
+    "uid" : "8563a90633d6b5d9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1668799682956,
+      "stop" : 1668799683471,
+      "duration" : 515
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Validar contrato buscarPorNome",
+    "uid" : "95e947e72045b2e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799683506,
+      "stop" : 1668799683686,
+      "duration" : 180
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "POST - Adicionar Novo Contato",
+    "uid" : "69100cd2e51b6f90",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799891923,
+      "stop" : 1668799892211,
+      "duration" : 288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "POST - Adicionar Novo Contato em Pessoa Inexistente",
+    "uid" : "78b22c4733b42a80",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799892236,
+      "stop" : 1668799892418,
+      "duration" : 182
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DELETE - Deletar Contato Existente",
+    "uid" : "3af91646835cd6f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799892431,
+      "stop" : 1668799892731,
+      "duration" : 300
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DELETE - Deletar Contato Inexistente",
+    "uid" : "e3f86cf0809ab112",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799892735,
+      "stop" : 1668799892880,
+      "duration" : 145
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Contatos Por idContato",
+    "uid" : "becd0667e8b35c5c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799892889,
+      "stop" : 1668799893362,
+      "duration" : 473
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Contatos Por idContato Inexistente",
+    "uid" : "7a489d58c29e5c5a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799893369,
+      "stop" : 1668799893520,
+      "duration" : 151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PUT - Atualizar Contato",
+    "uid" : "f22f6e69630dda06",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799893525,
+      "stop" : 1668799893951,
+      "duration" : 426
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PUT - Atualizar Contato Inexistente",
+    "uid" : "1cdd88dc7b98622b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799893957,
+      "stop" : 1668799894095,
+      "duration" : 138
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Todos Os Contatos",
+    "uid" : "b4ce570ac5ba4104",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799894099,
+      "stop" : 1668799894260,
+      "duration" : 161
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Todos Os Contatos Tamanho Pagina Invalido",
+    "uid" : "2b58bbfbad0f4b84",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1668799894267,
+      "stop" : 1668799898836,
+      "duration" : 4569
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "POST - Adicionar Novo Endereco",
+    "uid" : "7fdd140beb3a9f7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799904332,
+      "stop" : 1668799904602,
+      "duration" : 270
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "POST - Adicionar Novo Endereco em Pessoa Inexistente",
+    "uid" : "70bd2c167dfb1b8c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1668799904609,
+      "stop" : 1668799909144,
+      "duration" : 4535
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DELETE - Deletar Endereco",
+    "uid" : "f8caceaaddab6b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799909268,
+      "stop" : 1668799909579,
+      "duration" : 311
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DELETE - Deletar Endereco Inexistente",
+    "uid" : "794ef296ec58eab2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799909587,
+      "stop" : 1668799910040,
+      "duration" : 453
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Enderecos",
+    "uid" : "666e5ed02af95e8d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799910046,
+      "stop" : 1668799910192,
+      "duration" : 146
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Enderecos com Tamanho de Paginas Invalido",
+    "uid" : "4966d8cf495c7eb1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799910197,
+      "stop" : 1668799910332,
+      "duration" : 135
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PUT - Atualizar Endereco Existente",
+    "uid" : "b0a01e3c6328c1b7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799910337,
+      "stop" : 1668799910806,
+      "duration" : 469
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PUT - Atualizar Endereco Inexistente",
+    "uid" : "7308d81ea293743c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799910812,
+      "stop" : 1668799910949,
+      "duration" : 137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Endereco Por idEndereco",
+    "uid" : "c863e2fea7568b7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799910965,
+      "stop" : 1668799911420,
+      "duration" : 455
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Endereco Por idEndereco Inexisnte",
+    "uid" : "6931b9ef52f6cd15",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799911424,
+      "stop" : 1668799911582,
+      "duration" : 158
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Endereco Por Pais",
+    "uid" : "781911be3f148a7f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799911590,
+      "stop" : 1668799912138,
+      "duration" : 548
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Endereco Por Pais Inexistente",
+    "uid" : "f36169abf0648652",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799912143,
+      "stop" : 1668799912285,
+      "duration" : 142
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Endereco Por Id Pessoa",
+    "uid" : "f47d800f857d7f33",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799912288,
+      "stop" : 1668799912815,
+      "duration" : 527
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "GET - Listar Endereco Por Id Pessoa Inexistente",
+    "uid" : "a43655fe9b50ea34",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799912818,
+      "stop" : 1668799912954,
+      "duration" : 136
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Buscar Contato por Id Pessoa",
+    "uid" : "bc431c0ca3843236",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1668799980805,
+      "stop" : 1668799981544,
+      "duration" : 739
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Contrato - Buscar Lista Completa de Contatos",
+    "uid" : "b408eb3374e285c8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1668799981648,
+      "stop" : 1668799981809,
+      "duration" : 161
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: test/contrato/endereco.spec.js",
+    "uid" : "d326c58abaf52cbc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1668799985264,
+      "stop" : 1668799985264,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: test/contrato/pessoa.spec.js",
+    "uid" : "67a7d1feb305cd04",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1668799988066,
+      "stop" : 1668799988066,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

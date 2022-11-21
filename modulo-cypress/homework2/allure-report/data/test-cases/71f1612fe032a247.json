@@ -1,0 +1,318 @@
+{
+  "uid" : "71f1612fe032a247",
+  "name" : "Contrato - Validar contrato lista-com-enderecos",
+  "fullName" : "Contrato - Validar contrato lista-com-enderecos",
+  "historyId" : "f29c8e6151f071c6e11e509f667c1493",
+  "time" : {
+    "start" : 1668799682486,
+    "stop" : 1668799682930,
+    "duration" : 444
+  },
+  "status" : "failed",
+  "statusMessage" : "Falha do contrato",
+  "statusTrace" : "Error: Falha do contrato\n    at Context.eval (http://localhost:58464/__cypress/tests?p=cypress\\integration\\test\\contrato\\pessoa.spec.js:155:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799680905,
+        "stop" : 1668799681122,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799680908,
+          "stop" : 1668799681122,
+          "duration" : 214
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799681137,
+        "stop" : 1668799681339,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799681138,
+          "stop" : 1668799681339,
+          "duration" : 201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Falha do contrato",
+    "statusTrace" : "Error: Falha do contrato\n    at Context.eval (http://localhost:58464/__cypress/tests?p=cypress\\integration\\test\\contrato\\pessoa.spec.js:155:17)",
+    "steps" : [ {
+      "name" : "GET 404 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//pessoa/lista-com-enderecos",
+      "time" : {
+        "start" : 1668799682518,
+        "stop" : 1668799682616,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "fixture (\"pessoa/schema/listaComEndereco.contrato\")",
+      "time" : {
+        "start" : 1668799682619,
+        "stop" : 1668799682636,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "log [Object{8}]",
+      "time" : {
+        "start" : 1668799682652,
+        "stop" : 1668799682654,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "then function(){}",
+      "time" : {
+        "start" : 1668799682929,
+        "stop" : 1668799682929,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a4c90575d335d589",
+      "name" : "test/contrato/pessoa.spec.js:2022-11-18T19:28:02.670Z",
+      "source" : "a4c90575d335d589.png",
+      "type" : "image/png",
+      "size" : 83141
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contrato Pessoa"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c2031ced287ede64",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668799575400,
+        "stop" : 1668799575893,
+        "duration" : 493
+      }
+    }, {
+      "uid" : "f004da3a1c4bad7d",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668799034023,
+        "stop" : 1668799034444,
+        "duration" : 421
+      }
+    }, {
+      "uid" : "fb54c2caf417d490",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668798846475,
+        "stop" : 1668798846857,
+        "duration" : 382
+      }
+    }, {
+      "uid" : "33473ffdfd27decc",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668798685131,
+        "stop" : 1668798685551,
+        "duration" : 420
+      }
+    }, {
+      "uid" : "d2479ce43b53458b",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668798371239,
+        "stop" : 1668798371668,
+        "duration" : 429
+      }
+    }, {
+      "uid" : "d969b0720bfb05b6",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668798139585,
+        "stop" : 1668798140141,
+        "duration" : 556
+      }
+    }, {
+      "uid" : "6266347e2f66d0d1",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668797783968,
+        "stop" : 1668797784489,
+        "duration" : 521
+      }
+    }, {
+      "uid" : "7d21520be9832fcc",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668797487766,
+        "stop" : 1668797488371,
+        "duration" : 605
+      }
+    }, {
+      "uid" : "72f1dd876a7ec4fe",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668796280461,
+        "stop" : 1668796281017,
+        "duration" : 556
+      }
+    }, {
+      "uid" : "f3480deb7faecea6",
+      "status" : "failed",
+      "statusDetails" : "Falha do contrato",
+      "time" : {
+        "start" : 1668793053775,
+        "stop" : 1668793054144,
+        "duration" : 369
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3203bfaada9260eb",
+        "status" : "failed",
+        "statusDetails" : "Falha do contrato",
+        "time" : {
+          "start" : 1668797487766,
+          "stop" : 1668797488371,
+          "duration" : 605
+        }
+      }, {
+        "uid" : "d6cb35e928678b48",
+        "status" : "failed",
+        "statusDetails" : "Falha do contrato",
+        "time" : {
+          "start" : 1668796280461,
+          "stop" : 1668796281017,
+          "duration" : 556
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "71f1612fe032a247.json",
+  "parameterValues" : [ ]
+}

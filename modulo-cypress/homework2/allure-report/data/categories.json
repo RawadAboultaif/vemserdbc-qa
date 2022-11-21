@@ -1,0 +1,300 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The following error originated from your test code, not from Cypress.\n\n  > Cannot read properties of null (reading 'addLabel')\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+      "children" : [ {
+        "name" : "An uncaught error was detected outside of a test",
+        "uid" : "83da353ebbe79b21",
+        "parentUid" : "667420d179f1b9b24fb7e7da7341e0bb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799664558,
+          "stop" : 1668799664921,
+          "duration" : 363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "667420d179f1b9b24fb7e7da7341e0bb"
+    }, {
+      "name" : "Falha do contrato",
+      "children" : [ {
+        "name" : "Contrato - Buscar Endereco por Id Endereco",
+        "uid" : "a0149f0aa06fd71d",
+        "parentUid" : "4c3814f3db30bf84f2b800747b9087c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799675280,
+          "stop" : 1668799675837,
+          "duration" : 557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Contrato - Validar contrato atualizarPessoa",
+        "uid" : "4776c71bbd4e466",
+        "parentUid" : "4c3814f3db30bf84f2b800747b9087c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799681641,
+          "stop" : 1668799682098,
+          "duration" : 457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Contrato - Validar contrato lista-com-enderecos",
+        "uid" : "71f1612fe032a247",
+        "parentUid" : "4c3814f3db30bf84f2b800747b9087c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799682486,
+          "stop" : 1668799682930,
+          "duration" : 444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Contrato - Validar contrato lista-com-contatos",
+        "uid" : "8563a90633d6b5d9",
+        "parentUid" : "4c3814f3db30bf84f2b800747b9087c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799682956,
+          "stop" : 1668799683471,
+          "duration" : 515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Contrato - Buscar Contato por Id Pessoa",
+        "uid" : "bc431c0ca3843236",
+        "parentUid" : "4c3814f3db30bf84f2b800747b9087c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799980805,
+          "stop" : 1668799981544,
+          "duration" : 739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c3814f3db30bf84f2b800747b9087c7"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected 200 to equal 400",
+      "children" : [ {
+        "name" : "GET - Listar Todos Os Contatos Tamanho Pagina Invalido",
+        "uid" : "2b58bbfbad0f4b84",
+        "parentUid" : "f062eddb03aa5352e96b1d487b58a0f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799894267,
+          "stop" : 1668799898836,
+          "duration" : 4569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET, Buscar Pessoa Por CPF Invalido",
+        "uid" : "bb129dfd4341c065",
+        "parentUid" : "f062eddb03aa5352e96b1d487b58a0f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799934339,
+          "stop" : 1668799938802,
+          "duration" : 4463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET, Buscar Pessoa por Nome Vazio",
+        "uid" : "daf5115c7e4f8bf6",
+        "parentUid" : "f062eddb03aa5352e96b1d487b58a0f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799968803,
+          "stop" : 1668799973521,
+          "duration" : 4718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f062eddb03aa5352e96b1d487b58a0f1"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected 200 to equal 404",
+      "children" : [ {
+        "name" : "POST - Adicionar Novo Endereco em Pessoa Inexistente",
+        "uid" : "70bd2c167dfb1b8c",
+        "parentUid" : "9877be8e6acc7288ce989ca12db5d096",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799904609,
+          "stop" : 1668799909144,
+          "duration" : 4535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET, Buscar Relatorio Pessoa Inexistente",
+        "uid" : "f48e82b4e8cd8209",
+        "parentUid" : "9877be8e6acc7288ce989ca12db5d096",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799942350,
+          "stop" : 1668799949345,
+          "duration" : 6995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET, Lista Com Endereco Pessoa Inexistente",
+        "uid" : "d641ffe44a66683e",
+        "parentUid" : "9877be8e6acc7288ce989ca12db5d096",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799957407,
+          "stop" : 1668799962529,
+          "duration" : 5122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GET, Lista Com Contatos Pessoa Inexistente",
+        "uid" : "3cc72c3f62d6301",
+        "parentUid" : "9877be8e6acc7288ce989ca12db5d096",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799963381,
+          "stop" : 1668799968331,
+          "duration" : 4950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9877be8e6acc7288ce989ca12db5d096"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected 404 to equal 400",
+      "children" : [ {
+        "name" : "PUT - Atualizar Pessoa Com Id Negativo",
+        "uid" : "2678c00876c5a86f",
+        "parentUid" : "d4cefdedd5031dd470f967ef2d1c30fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799919493,
+          "stop" : 1668799923933,
+          "duration" : 4440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4cefdedd5031dd470f967ef2d1c30fe"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected 500 to equal 400",
+      "children" : [ {
+        "name" : "GET - Listar Pessoas Tamanha lista Negativo",
+        "uid" : "a6f54fbe43d20a49",
+        "parentUid" : "45741661a1dfe50a6e60dc03c5ac7122",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799924170,
+          "stop" : 1668799928590,
+          "duration" : 4420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "45741661a1dfe50a6e60dc03c5ac7122"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected 404 to equal 200",
+      "children" : [ {
+        "name" : "DELETE, Deletar Pessoa Id Negativo",
+        "uid" : "a37ec54282a7366",
+        "parentUid" : "6c1442de827a1671191ea435cf57ed4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799928924,
+          "stop" : 1668799933411,
+          "duration" : 4487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c1442de827a1671191ea435cf57ed4c"
+    }, {
+      "name" : "Timed out retrying after 4000ms: response is not defined",
+      "children" : [ {
+        "name" : "GET, Lista Completa Pessoa Id Passado Como String",
+        "uid" : "60fd2a6f0847a7eb",
+        "parentUid" : "58f1d9a8cd8a1d13508bcdbd8ab2ab29",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668799950758,
+          "stop" : 1668799956361,
+          "duration" : 5603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58f1d9a8cd8a1d13508bcdbd8ab2ab29"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Oops...we found an error preparing this test file:\n\n  > cypress\\integration\\test\\contrato\\endereco.spec.js\n\n",
+      "children" : [ {
+        "name" : "Oops...we found an error preparing this test file: test/contrato/endereco.spec.js",
+        "uid" : "d326c58abaf52cbc",
+        "parentUid" : "ca4bebb9fe4c48ceadc8eb56e70cfcd2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1668799985264,
+          "stop" : 1668799985264,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca4bebb9fe4c48ceadc8eb56e70cfcd2"
+    }, {
+      "name" : "Oops...we found an error preparing this test file:\n\n  > cypress\\integration\\test\\contrato\\pessoa.spec.js\n\n",
+      "children" : [ {
+        "name" : "Oops...we found an error preparing this test file: test/contrato/pessoa.spec.js",
+        "uid" : "67a7d1feb305cd04",
+        "parentUid" : "c672934e933f15d7e87365f2900eff3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1668799988066,
+          "stop" : 1668799988066,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c672934e933f15d7e87365f2900eff3c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

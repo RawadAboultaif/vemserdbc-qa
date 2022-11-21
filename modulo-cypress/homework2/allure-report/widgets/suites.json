@@ -1,0 +1,92 @@
+{
+  "total" : 9,
+  "items" : [ {
+    "uid" : "0204f8d97da14a8025be491e943f2ab0",
+    "name" : "Pessoa",
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 20
+    }
+  }, {
+    "uid" : "b9763e81887a1bc2283beb9af87cd4ed",
+    "name" : "Contrato Pessoa",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "10df452bcaa4f0ffdf3102a1adac9569",
+    "name" : "Endereco",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "b46e323bdadaab1ddd699fd3b7c32263",
+    "name" : "Contato",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "83d7f12abf0118268a997f739783b662",
+    "name" : "Contrato Endereco",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "bba85823d4b6014fc60f7ce0c1fc2e65",
+    "name" : "Contrato Contato",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "f467403aab37e4f1995f3ca763a8866b",
+    "name" : "test/contrato/endereco.spec.js",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "27032d03ad24bfc500286f1f3dd20ffd",
+    "name" : "test/contrato/pessoa.spec.js",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

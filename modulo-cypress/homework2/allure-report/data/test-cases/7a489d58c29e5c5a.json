@@ -1,0 +1,306 @@
+{
+  "uid" : "7a489d58c29e5c5a",
+  "name" : "GET - Listar Contatos Por idContato Inexistente",
+  "fullName" : "GET - Listar Contatos Por idContato Inexistente",
+  "historyId" : "5a12d69c48d5f170f5487e040a3987e9",
+  "time" : {
+    "start" : 1668799893369,
+    "stop" : 1668799893520,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799890947,
+        "stop" : 1668799891630,
+        "duration" : 683
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799890955,
+          "stop" : 1668799891630,
+          "duration" : 675
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login",
+      "time" : {
+        "start" : 1668799891641,
+        "stop" : 1668799891911,
+        "duration" : 270
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api//auth",
+        "time" : {
+          "start" : 1668799891642,
+          "stop" : 1668799891911,
+          "duration" : 269
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET 404 http://vemser-dbc.dbccompany.com.br:39000/vemser/dbc-pessoa-api/contato/34235235",
+      "time" : {
+        "start" : 1668799893394,
+        "stop" : 1668799893512,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "as (\"response\")",
+      "time" : {
+        "start" : 1668799893512,
+        "stop" : 1668799893512,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get @response",
+      "time" : {
+        "start" : 1668799893512,
+        "stop" : 1668799893518,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **404** to equal **404**",
+      "time" : {
+        "start" : 1668799893518,
+        "stop" : 1668799893518,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "404"
+      }, {
+        "name" : "expected",
+        "value" : "404"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contato"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "734c0e1cc00c4f47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799639684,
+        "stop" : 1668799639825,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "6bb588da4c40ca9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668799531753,
+        "stop" : 1668799531903,
+        "duration" : 150
+      }
+    }, {
+      "uid" : "421afdd6bf58f816",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668798946834,
+        "stop" : 1668798946930,
+        "duration" : 96
+      }
+    }, {
+      "uid" : "43c6efcd146ed13c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668798810523,
+        "stop" : 1668798810630,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "8db5cf6dd07e4fc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668798647127,
+        "stop" : 1668798647251,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "77080c96f57b1a5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668798283827,
+        "stop" : 1668798283948,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "11e81acb557a04b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668798040141,
+        "stop" : 1668798040286,
+        "duration" : 145
+      }
+    }, {
+      "uid" : "44b3f26deb37960c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668797686102,
+        "stop" : 1668797686241,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "c88714942adb358b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668797391767,
+        "stop" : 1668797391908,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "3f599b747abbdb84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668796191956,
+        "stop" : 1668796192101,
+        "duration" : 145
+      }
+    }, {
+      "uid" : "90fc99f895ee9837",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668792969932,
+        "stop" : 1668792970055,
+        "duration" : 123
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "e1b89e8108f9eef3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668797391767,
+          "stop" : 1668797391908,
+          "duration" : 141
+        }
+      }, {
+        "uid" : "29ab7441e19c27a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1668796191956,
+          "stop" : 1668796192101,
+          "duration" : 145
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7a489d58c29e5c5a.json",
+  "parameterValues" : [ ]
+}

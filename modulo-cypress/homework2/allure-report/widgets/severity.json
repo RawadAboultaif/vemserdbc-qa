@@ -1,0 +1,601 @@
+[ {
+  "uid" : "434d876b323d3c3c",
+  "name" : "Contrato - Validar contrato relatorioPorId",
+  "time" : {
+    "start" : 1668799682156,
+    "stop" : 1668799682312,
+    "duration" : 156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83da353ebbe79b21",
+  "name" : "An uncaught error was detected outside of a test",
+  "time" : {
+    "start" : 1668799664558,
+    "stop" : 1668799664921,
+    "duration" : 363
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f48e82b4e8cd8209",
+  "name" : "GET, Buscar Relatorio Pessoa Inexistente",
+  "time" : {
+    "start" : 1668799942350,
+    "stop" : 1668799949345,
+    "duration" : 6995
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fdd140beb3a9f7e",
+  "name" : "POST - Adicionar Novo Endereco",
+  "time" : {
+    "start" : 1668799904332,
+    "stop" : 1668799904602,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f36169abf0648652",
+  "name" : "GET - Listar Endereco Por Pais Inexistente",
+  "time" : {
+    "start" : 1668799912143,
+    "stop" : 1668799912285,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a489d58c29e5c5a",
+  "name" : "GET - Listar Contatos Por idContato Inexistente",
+  "time" : {
+    "start" : 1668799893369,
+    "stop" : 1668799893520,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "becd0667e8b35c5c",
+  "name" : "GET - Listar Contatos Por idContato",
+  "time" : {
+    "start" : 1668799892889,
+    "stop" : 1668799893362,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a37ec54282a7366",
+  "name" : "DELETE, Deletar Pessoa Id Negativo",
+  "time" : {
+    "start" : 1668799928924,
+    "stop" : 1668799933411,
+    "duration" : 4487
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "95e947e72045b2e7",
+  "name" : "Contrato - Validar contrato buscarPorNome",
+  "time" : {
+    "start" : 1668799683506,
+    "stop" : 1668799683686,
+    "duration" : 180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0149f0aa06fd71d",
+  "name" : "Contrato - Buscar Endereco por Id Endereco",
+  "time" : {
+    "start" : 1668799675280,
+    "stop" : 1668799675837,
+    "duration" : 557
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "70bd2c167dfb1b8c",
+  "name" : "POST - Adicionar Novo Endereco em Pessoa Inexistente",
+  "time" : {
+    "start" : 1668799904609,
+    "stop" : 1668799909144,
+    "duration" : 4535
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4966d8cf495c7eb1",
+  "name" : "GET - Listar Enderecos com Tamanho de Paginas Invalido",
+  "time" : {
+    "start" : 1668799910197,
+    "stop" : 1668799910332,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3af91646835cd6f1",
+  "name" : "DELETE - Deletar Contato Existente",
+  "time" : {
+    "start" : 1668799892431,
+    "stop" : 1668799892731,
+    "duration" : 300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b8c9583a8224684",
+  "name" : "Contrato - Validar contrato listarPessoa",
+  "time" : {
+    "start" : 1668799681354,
+    "stop" : 1668799681635,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c863e2fea7568b7",
+  "name" : "GET - Listar Endereco Por idEndereco",
+  "time" : {
+    "start" : 1668799910965,
+    "stop" : 1668799911420,
+    "duration" : 455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd0dc9d37ff6f96b",
+  "name" : "GET, Buscar Pessoa Por CPF",
+  "time" : {
+    "start" : 1668799933862,
+    "stop" : 1668799934332,
+    "duration" : 470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "781911be3f148a7f",
+  "name" : "GET - Listar Endereco Por Pais",
+  "time" : {
+    "start" : 1668799911590,
+    "stop" : 1668799912138,
+    "duration" : 548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b408eb3374e285c8",
+  "name" : "Contrato - Buscar Lista Completa de Contatos",
+  "time" : {
+    "start" : 1668799981648,
+    "stop" : 1668799981809,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f22f6e69630dda06",
+  "name" : "PUT - Atualizar Contato",
+  "time" : {
+    "start" : 1668799893525,
+    "stop" : 1668799893951,
+    "duration" : 426
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2678c00876c5a86f",
+  "name" : "PUT - Atualizar Pessoa Com Id Negativo",
+  "time" : {
+    "start" : 1668799919493,
+    "stop" : 1668799923933,
+    "duration" : 4440
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6706733e06934a3",
+  "name" : "Contrato - Lista Endereco Completa",
+  "time" : {
+    "start" : 1668799675907,
+    "stop" : 1668799676125,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d641ffe44a66683e",
+  "name" : "GET, Lista Com Endereco Pessoa Inexistente",
+  "time" : {
+    "start" : 1668799957407,
+    "stop" : 1668799962529,
+    "duration" : 5122
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cc72c3f62d6301",
+  "name" : "GET, Lista Com Contatos Pessoa Inexistente",
+  "time" : {
+    "start" : 1668799963381,
+    "stop" : 1668799968331,
+    "duration" : 4950
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "80bd490ed395b3e5",
+  "name" : "Contrato - Validar contrato lista-completa",
+  "time" : {
+    "start" : 1668799682316,
+    "stop" : 1668799682480,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b1095882c2ef9f6",
+  "name" : "GET, Buscar Pessoa por Nome",
+  "time" : {
+    "start" : 1668799968363,
+    "stop" : 1668799968798,
+    "duration" : 435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7561e271065025c",
+  "name" : "PUT - Atualizar Pessoa",
+  "time" : {
+    "start" : 1668799919078,
+    "stop" : 1668799919485,
+    "duration" : 407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1b104405b02b027",
+  "name" : "GET, Lista Com Contatos Pessoa",
+  "time" : {
+    "start" : 1668799962546,
+    "stop" : 1668799963375,
+    "duration" : 829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "766316aabf5a40c8",
+  "name" : "DELETE, Deletar Pessoa",
+  "time" : {
+    "start" : 1668799928619,
+    "stop" : 1668799928917,
+    "duration" : 298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "832db15ecec45d7b",
+  "name" : "GET - Listar Pessoas",
+  "time" : {
+    "start" : 1668799924030,
+    "stop" : 1668799924165,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20473b8769095b9b",
+  "name" : "POST, Adicionar Nova Pessoa Com Nome Vazio",
+  "time" : {
+    "start" : 1668799933712,
+    "stop" : 1668799933857,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7308d81ea293743c",
+  "name" : "PUT - Atualizar Endereco Inexistente",
+  "time" : {
+    "start" : 1668799910812,
+    "stop" : 1668799910949,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c412251cd46a3f9a",
+  "name" : "Contrato - Lista Endereco Por Pais",
+  "time" : {
+    "start" : 1668799676130,
+    "stop" : 1668799676270,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "794ef296ec58eab2",
+  "name" : "DELETE - Deletar Endereco Inexistente",
+  "time" : {
+    "start" : 1668799909587,
+    "stop" : 1668799910040,
+    "duration" : 453
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8caceaaddab6b5",
+  "name" : "DELETE - Deletar Endereco",
+  "time" : {
+    "start" : 1668799909268,
+    "stop" : 1668799909579,
+    "duration" : 311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6931b9ef52f6cd15",
+  "name" : "GET - Listar Endereco Por idEndereco Inexisnte",
+  "time" : {
+    "start" : 1668799911424,
+    "stop" : 1668799911582,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb129dfd4341c065",
+  "name" : "GET, Buscar Pessoa Por CPF Invalido",
+  "time" : {
+    "start" : 1668799934339,
+    "stop" : 1668799938802,
+    "duration" : 4463
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc431c0ca3843236",
+  "name" : "Contrato - Buscar Contato por Id Pessoa",
+  "time" : {
+    "start" : 1668799980805,
+    "stop" : 1668799981544,
+    "duration" : 739
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8563a90633d6b5d9",
+  "name" : "Contrato - Validar contrato lista-com-contatos",
+  "time" : {
+    "start" : 1668799682956,
+    "stop" : 1668799683471,
+    "duration" : 515
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b58bbfbad0f4b84",
+  "name" : "GET - Listar Todos Os Contatos Tamanho Pagina Invalido",
+  "time" : {
+    "start" : 1668799894267,
+    "stop" : 1668799898836,
+    "duration" : 4569
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4ce570ac5ba4104",
+  "name" : "GET - Listar Todos Os Contatos",
+  "time" : {
+    "start" : 1668799894099,
+    "stop" : 1668799894260,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67a7d1feb305cd04",
+  "name" : "Oops...we found an error preparing this test file: test/contrato/pessoa.spec.js",
+  "time" : {
+    "start" : 1668799988066,
+    "stop" : 1668799988066,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "60fd2a6f0847a7eb",
+  "name" : "GET, Lista Completa Pessoa Id Passado Como String",
+  "time" : {
+    "start" : 1668799950758,
+    "stop" : 1668799956361,
+    "duration" : 5603
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0a01e3c6328c1b7",
+  "name" : "PUT - Atualizar Endereco Existente",
+  "time" : {
+    "start" : 1668799910337,
+    "stop" : 1668799910806,
+    "duration" : 469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3f86cf0809ab112",
+  "name" : "DELETE - Deletar Contato Inexistente",
+  "time" : {
+    "start" : 1668799892735,
+    "stop" : 1668799892880,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71f1612fe032a247",
+  "name" : "Contrato - Validar contrato lista-com-enderecos",
+  "time" : {
+    "start" : 1668799682486,
+    "stop" : 1668799682930,
+    "duration" : 444
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "64aeea96d8b3b18c",
+  "name" : "GET, Lista Com Endereco Pessoa",
+  "time" : {
+    "start" : 1668799956375,
+    "stop" : 1668799957398,
+    "duration" : 1023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69100cd2e51b6f90",
+  "name" : "POST - Adicionar Novo Contato",
+  "time" : {
+    "start" : 1668799891923,
+    "stop" : 1668799892211,
+    "duration" : 288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "daf5115c7e4f8bf6",
+  "name" : "GET, Buscar Pessoa por Nome Vazio",
+  "time" : {
+    "start" : 1668799968803,
+    "stop" : 1668799973521,
+    "duration" : 4718
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cdd88dc7b98622b",
+  "name" : "PUT - Atualizar Contato Inexistente",
+  "time" : {
+    "start" : 1668799893957,
+    "stop" : 1668799894095,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d326c58abaf52cbc",
+  "name" : "Oops...we found an error preparing this test file: test/contrato/endereco.spec.js",
+  "time" : {
+    "start" : 1668799985264,
+    "stop" : 1668799985264,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a6f54fbe43d20a49",
+  "name" : "GET - Listar Pessoas Tamanha lista Negativo",
+  "time" : {
+    "start" : 1668799924170,
+    "stop" : 1668799928590,
+    "duration" : 4420
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f47d800f857d7f33",
+  "name" : "GET - Listar Endereco Por Id Pessoa",
+  "time" : {
+    "start" : 1668799912288,
+    "stop" : 1668799912815,
+    "duration" : 527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6785b86c72445b07",
+  "name" : "GET, Lista Completa Pessoa",
+  "time" : {
+    "start" : 1668799949364,
+    "stop" : 1668799950714,
+    "duration" : 1350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "666e5ed02af95e8d",
+  "name" : "GET - Listar Enderecos",
+  "time" : {
+    "start" : 1668799910046,
+    "stop" : 1668799910192,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4776c71bbd4e466",
+  "name" : "Contrato - Validar contrato atualizarPessoa",
+  "time" : {
+    "start" : 1668799681641,
+    "stop" : 1668799682098,
+    "duration" : 457
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1fe90d5460bcc6",
+  "name" : "GET, Buscar Relatorio Pessoa",
+  "time" : {
+    "start" : 1668799938835,
+    "stop" : 1668799942269,
+    "duration" : 3434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98feefefc794832c",
+  "name" : "POST, Adicionar Nova Pessoa",
+  "time" : {
+    "start" : 1668799933428,
+    "stop" : 1668799933709,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78b22c4733b42a80",
+  "name" : "POST - Adicionar Novo Contato em Pessoa Inexistente",
+  "time" : {
+    "start" : 1668799892236,
+    "stop" : 1668799892418,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a43655fe9b50ea34",
+  "name" : "GET - Listar Endereco Por Id Pessoa Inexistente",
+  "time" : {
+    "start" : 1668799912818,
+    "stop" : 1668799912954,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5eb32d4f2c2c03e9",
+  "name" : "Contrato - Lista Endereco Por Id Pessoa",
+  "time" : {
+    "start" : 1668799676274,
+    "stop" : 1668799676406,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
